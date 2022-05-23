@@ -1,0 +1,33 @@
+{"log":"[2021-08-05 12:08:18 +0000] [7] [INFO] Starting gunicorn 19.7.1\n","stream":"stderr","time":"2021-08-05T12:08:18.409831943Z"}
+{"log":"[2021-08-05 12:08:18 +0000] [7] [INFO] Listening at: http://0.0.0.0:80 (7)\n","stream":"stderr","time":"2021-08-05T12:08:18.410626748Z"}
+{"log":"[2021-08-05 12:08:18 +0000] [7] [INFO] Using worker: sync\n","stream":"stderr","time":"2021-08-05T12:08:18.410640148Z"}
+{"log":"[2021-08-05 12:08:18 +0000] [12] [INFO] Booting worker with pid: 12\n","stream":"stderr","time":"2021-08-05T12:08:18.416247183Z"}
+{"log":"[2021-08-05 12:08:18 +0000] [13] [INFO] Booting worker with pid: 13\n","stream":"stderr","time":"2021-08-05T12:08:18.458211345Z"}
+{"log":"[2021-08-05 12:08:18 +0000] [14] [INFO] Booting worker with pid: 14\n","stream":"stderr","time":"2021-08-05T12:08:18.560413481Z"}
+{"log":"/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1368: RuntimeWarning: DateTimeField Recorrido.fecha_inicio received a naive datetime (2021-08-04 07:08:25.998073) while time zone support is active.\n","stream":"stderr","time":"2021-08-05T12:09:10.378752711Z"}
+{"log":"  RuntimeWarning)\n","stream":"stderr","time":"2021-08-05T12:09:10.378791911Z"}
+{"log":"[2021-08-05 07:09:10] INFO [idtalento.integracion.asociar_a_proceso:332] IDTALENTO:asociar_a_proceso\n","stream":"stderr","time":"2021-08-05T12:09:10.378797911Z"}
+{"log":"[2021-08-05 07:09:10] INFO [idtalento.integracion.crear_candidato:238] IDTALENTO:crear_candidato\n","stream":"stderr","time":"2021-08-05T12:09:10.378895612Z"}
+{"log":"[2021-08-05 07:09:10] INFO [idtalento.integracion.asociar_a_proceso:422] IDTALENTO:asociado a proceso\n","stream":"stderr","time":"2021-08-05T12:09:10.610533354Z"}
+{"log":"/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1368: RuntimeWarning: DateTimeField Recorrido.fecha_inicio received a naive datetime (2021-08-04 07:08:31.831681) while time zone support is active.\n","stream":"stderr","time":"2021-08-05T12:10:13.49589991Z"}
+{"log":"  RuntimeWarning)\n","stream":"stderr","time":"2021-08-05T12:10:13.49593861Z"}
+{"log":"[2021-08-05 07:10:13] INFO [idtalento.integracion.asociar_a_proceso:332] IDTALENTO:asociar_a_proceso\n","stream":"stderr","time":"2021-08-05T12:10:13.495943111Z"}
+{"log":"[2021-08-05 07:10:13] INFO [idtalento.integracion.crear_candidato:238] IDTALENTO:crear_candidato\n","stream":"stderr","time":"2021-08-05T12:10:13.495946111Z"}
+{"log":"[2021-08-05 07:10:13] INFO [idtalento.integracion.asociar_a_proceso:422] IDTALENTO:asociado a proceso\n","stream":"stderr","time":"2021-08-05T12:10:13.652936388Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:419] Request URL: 'https://bucketfocun.queue.core.windows.net/cola-production/messages'\n","stream":"stderr","time":"2021-08-05T12:10:13.679348153Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:420] Request method: 'POST'\n","stream":"stderr","time":"2021-08-05T12:10:13.679398053Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:421] Request headers:\n","stream":"stderr","time":"2021-08-05T12:10:13.679552754Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'Accept': 'application/xml'\n","stream":"stderr","time":"2021-08-05T12:10:13.679612654Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'Content-Type': 'application/xml; charset=utf-8'\n","stream":"stderr","time":"2021-08-05T12:10:13.681322465Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'x-ms-version': 'REDACTED'\n","stream":"stderr","time":"2021-08-05T12:10:13.681340965Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'Content-Length': '231'\n","stream":"stderr","time":"2021-08-05T12:10:13.681347565Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'User-Agent': 'azsdk-python-storage-queue/12.1.5 Python/3.7.7 (Linux-3.10.0-1160.31.1.el7.x86_64-x86_64-with-debian-10.4)'\n","stream":"stderr","time":"2021-08-05T12:10:13.681352265Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'x-ms-date': 'REDACTED'\n","stream":"stderr","time":"2021-08-05T12:10:13.681368465Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'x-ms-client-request-id': '16af1128-f5e6-11eb-a96b-0242c0a82003'\n","stream":"stderr","time":"2021-08-05T12:10:13.681391366Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:424]     'Authorization': 'REDACTED'\n","stream":"stderr","time":"2021-08-05T12:10:13.681396166Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_request:435] A body is sent with the request\n","stream":"stderr","time":"2021-08-05T12:10:13.681400566Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_response:452] Response status: 201\n","stream":"stderr","time":"2021-08-05T12:10:13.73196588Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_response:453] Response headers:\n","stream":"stderr","time":"2021-08-05T12:10:13.732064381Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_response:456]     'Transfer-Encoding': 'chunked'\n","stream":"stderr","time":"2021-08-05T12:10:13.733107288Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_response:456]     'Content-Type': 'application/xml'\n","stream":"stderr","time":"2021-08-05T12:10:13.733148788Z"}
+{"log":"[2021-08-05 07:10:13] INFO [azure.core.pipeline.policies.http_logging_policy.on_response:456]     'Server': 'Windows-Azure-Queue/1.0 Microsoft-HTTPAPI/2.0'\n","stream":"stderr","time":"2021-08-05T12:10:13.733152988Z"}
