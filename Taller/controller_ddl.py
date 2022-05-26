@@ -12,6 +12,8 @@ def create_db(db):
 def create_table(db,table):
     connect = sql.connect(db)
     cursor = connect.cursor()
+    cursor.execute(f"DROP TABLE IF EXISTS {table}")
+    connect.commit()
     cursor.execute(
         f"""CREATE TABLE IF NOT EXISTS "{table}" (
             "id"	INTEGER NOT NULL,

@@ -1,10 +1,12 @@
-import controller_ddl as cont_ddl
-import controller_dml as cont_dml
+import controller_dml as dml
+import controller_ddl as ddl
+import controller_read_file as crf
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    #cont_ddl.create_db()
-    #cont_ddl.create_table()
-    #cont_dml.insert('log_data_prueba', '2020-02-15 09:15:30', 'INFO', 'id.talento.focun', 3)
-    pass
+    database = "log_data_prueba"
+    ddl.create_db(database)
+    ddl.create_table(database, "log")
+    dml.insert_log(database,crf.read_file())
+    #dml.select_log(database)
